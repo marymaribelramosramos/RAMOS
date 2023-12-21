@@ -8,17 +8,17 @@ header, footer {
 }
 
 @mixin backgroundred {
-  background-color: red;
-  border: 1px solid blue;
+  background-color: rgb(89, 0, 255);
+  border: 1px solid rgb(27, 192, 5);
   font-size: 20px;
 }
 
 
 .layout_a {
-  color: #c3c1c1;
+  color: #c1c3c1;
   &:hover {
     text-decoration: underline;
-    color: #FFF;
+    color: #390bb8;
     @include backgroundred
   }
 }
